@@ -1,0 +1,67 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,rgb(193, 248, 255),rgb(112, 112, 206));
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+@font-face {
+    font-family: "pelak";
+    src: url("font/PelakFA-Medium.woff");
+}
+h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
+    font-family: "pelak";
+}
+.title-bmi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(68, 33, 196);
+    font-size: 35px;
+}
+.paragragh-bmi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(15, 15, 102);
+    text-shadow: 1px 1px 5px rgb(238, 238, 238);
+    background-color: rgba(193, 248, 255, 0.329);
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(95, 158, 160);
+}
+.bmiDiv{
+    height: 250px;
+    width: 1000px;
+    background-color: rgb(218, 208, 228);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px double black;
+}
+.divOne, .divTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    font-size: 25px;
+}
+
+#rangeOne,#rangeTwo{
+    width: 600px;
+}
+.bmiSpan{
+    font-size: 25px;
+    color: rgb(64, 64, 255);
+    font-weight: bolder;
+}

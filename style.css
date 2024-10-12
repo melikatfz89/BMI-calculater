@@ -39,7 +39,7 @@ h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
 }
 .bmiDiv{
     height: 250px;
-    width: 1000px;
+    width: 80%;
     background-color: rgb(218, 208, 228);
     border-radius: 10px;
     display: flex;
@@ -47,13 +47,14 @@ h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
     justify-content: space-around;
     align-items: center;
     border: 4px double black;
+    padding: 0 20px;
 }
 .divOne, .divTwo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
+    width: 100%;
     font-size: 25px;
 }
 

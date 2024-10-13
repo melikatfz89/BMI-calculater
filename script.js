@@ -22,3 +22,30 @@ function showrangeKG(){
         spanbmiElem.innerHTML='amout of BMI='+bmitotal.toFixed(2)
 
 }
+const totalElem=document.querySelector('.total-date')
+const hourElem=document.getElementById('hour')
+const minuteElem=document.getElementById('minute')
+const secondElem=document.getElementById('seconds')
+
+
+setInterval (function (){
+        const myTime= new Date()
+        const nowhour=myTime.getHours()
+        const nowminute=myTime.getMinutes()
+        const nowsecound=myTime.getSeconds()
+        
+        if (nowhour<10){
+                nowhour='0'+nowhour
+        }
+        if (nowminute<10){
+                nowminute='0'+nowminute
+        }
+        if (nowsecound<10){
+                nowsecound='0'+nowsecound
+        }
+
+        hourElem.innerHTML=nowhour
+        minuteElem.innerHTML=nowminute
+        secondElem.innerHTML=nowsecound
+
+},1000)

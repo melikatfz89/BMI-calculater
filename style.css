@@ -8,34 +8,37 @@ body{
     background-repeat: no-repeat;
     height: 1000px;
 }
-@font-face {
+/* @font-face {
     font-family: "pelak";
     src: url("font/PelakFA-Medium.woff");
-}
-h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
+} */
+/* h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
     font-family: "pelak";
-}
+} */
 .title-bmi{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     color: rgb(68, 33, 196);
     font-size: 35px;
 }
+.title-bmi h1{
+    text-align: center;
+}
 .paragragh-bmi{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-size: 28px;
     color: rgb(15, 15, 102);
     text-shadow: 1px 1px 5px rgb(238, 238, 238);
-    background-color: rgba(193, 248, 255, 0.329);
-    padding: 10px 25px;
-    margin: 20px;
+    /* background-color: rgba(193, 248, 255, 0.329); */
+    /* padding: 10px 25px; */
+    margin: 10px 0;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px rgb(95, 158, 160);
+    /* box-shadow: 1px 1px 5px rgb(95, 158, 160); */
 }
 .bmiDiv{
     height: 250px;
@@ -65,4 +68,41 @@ h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
     font-size: 25px;
     color: rgb(64, 64, 255);
     font-weight: bolder;
+}
+.all-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+.total-date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.time-date{
+    width: 20%;
+    height: 70px;
+    border: 5px double rgb(3, 182, 173);
+    border-radius: 10px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.limit-bmi span{
+    color: rgb(64, 64, 255);;
+     font-size: 25px;
+     font-weight: bold;
+     text-shadow: 1px 0px 1px black;
+     font-weight: bolder;
+     text-align: center;
+     display: flex;
+     justify-content: center;
 }

@@ -97,12 +97,10 @@ body{
     font-size: 25px;
 }
 .limit-bmi span{
-    color: rgb(64, 64, 255);;
+    color: rgb(13, 13, 133);;
      font-size: 25px;
-     font-weight: bold;
      text-shadow: 1px 0px 1px black;
-     font-weight: bolder;
-     text-align: center;
+     text-align: left;
      display: flex;
-     justify-content: center;
+     /* justify-content: center; */
 }
